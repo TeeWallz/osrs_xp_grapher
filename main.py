@@ -35,7 +35,7 @@ def onboard_images_to_db():
 
 
 def graph_data():
-    plt.title(f"{user} OSRS Levels Over Time")
+    plt.title(f"{user} OSRS Levels Over Time!")
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%m/%d/%Y'))
     plt.gca().xaxis.set_major_locator(mdates.DayLocator())
 
