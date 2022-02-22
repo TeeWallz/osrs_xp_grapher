@@ -60,7 +60,6 @@ def graph_data():
 
     plt.legend()
     plt.gcf().autofmt_xdate()
-    plt.show()
     plt.savefig('levels.png', dpi=my_dpi)
 
 if __name__ == "__main__":
