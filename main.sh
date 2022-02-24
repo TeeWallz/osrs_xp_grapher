@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd /home/tom/git/home/osrs_xp_grapher/
 source venv/bin/activate
 python main.py
 
